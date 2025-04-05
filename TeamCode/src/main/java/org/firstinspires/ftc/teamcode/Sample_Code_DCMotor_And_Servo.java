@@ -60,7 +60,7 @@ public class Sample_Code_DCMotor_And_Servo extends LinearOpMode {
         MotorT.setTargetPosition(0); // Target position of robo is 0
         MotorT.setMode(DcMotor.RunMode.RUN_TO_POSITION); // Spin to the target position
         //MotorT.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-        MotorT.setVelocity(100); // Uses Encoder to detect and adjust velocity to constant a RPM
+        MotorT.setVelocity(2000); // Uses Encoder to detect and adjust velocity to constant a RPM
 
         // Set up Servo
         ServoT.setPosition(0); // Reset the servo, if CRServo then it will spin
